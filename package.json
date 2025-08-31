@@ -1,0 +1,30 @@
+{
+  "name": "delivery_app",
+  "version": "1.0.0",
+  "description": "Multi-level web application for managing the delivery process of goods.  \r Includes frontend (React), backend (Node.js + Express), and database (PostgreSQL).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyaha/delivery_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lyaha/delivery_app/issues"
+  },
+  "homepage": "https://github.com/Lyaha/delivery_app#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "husky": "^9.1.7"
+  }
+}
